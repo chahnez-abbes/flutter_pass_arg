@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
+class page1 extends StatelessWidget {
+static const route ='/page1';
+
   @override
   Widget build (BuildContext context){
     return Scaffold(
-      appBar: AppBar( title: Text('home screen'),
+      appBar: AppBar( title: Text('page 1 screen '),
       ),
       body: Center(
         child: Column (
           children: <Widget>[
-            RaisedButton(
-              child: Text("Go page 1"),
-              onPressed: (){} ,
-            )
+            Text('name'),
+            Text('age'),
           ],
         ),
       ),
